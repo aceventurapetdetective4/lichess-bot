@@ -33,7 +33,7 @@ engine:                      # Engine settings.
     offer_draw_pieces: 10    # Only if the pieces on board are less than or equal to this value, the bot offers/accepts draw.
   online_moves:
     chessdb_book:
-      enabled: true
+      enabled: false
       min_time: 20
       move_quality: "best"   # One of "all", "good", "best".
       min_depth: 20          # Only for move_quality: "best".
