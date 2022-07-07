@@ -40,7 +40,7 @@ engine:                      # Engine settings.
       contribute: true
     lichess_cloud_analysis:
       enabled: true
-      min_time: 20
+      min_time: 120
       move_quality: "best"   # One of "good", "best".
       max_score_difference: 50 # Only for move_quality: "good". The maximum score difference (in cp) between the best move and the other moves.
       min_depth: 20
@@ -59,7 +59,7 @@ engine:                      # Engine settings.
     Move Overhead: 1000      # Increase if your bot flags games too often.
     Ponder: true
     Slow Mover: 80
-    Threads: 4               # Max CPU threads the engine can use.
+    Threads: 20              # Max CPU threads the engine can use.
     Hash: 512                # Max memory (in megabytes) the engine can allocate.
     MultiPV: 1
 #   go_commands:             # Additional options to pass to the UCI go command.
