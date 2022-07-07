@@ -56,7 +56,7 @@ engine:                      # Engine settings.
   homemade_options:
 #   Hash: 256
   uci_options:               # Arbitrary UCI options passed to the engine.
-    Move Overhead: 500       # Increase if your bot flags games too often.
+    Move Overhead: 1000      # Increase if your bot flags games too often.
     Ponder: true
     Slow Mover: 80
     Threads: 4               # Max CPU threads the engine can use.
